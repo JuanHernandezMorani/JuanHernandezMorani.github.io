@@ -1,0 +1,232 @@
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.content {
+  height: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.boton {
+  height: 45px;
+  margin-right: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+
+.formAndCategories {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  align-items: center;
+  width: 950px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 21px;
+  width: 500px;
+  background: #b7b3b3dc;
+  box-shadow: 35px 35px 70px #797676, -35px -35px 70px #f5f0f0;
+}
+.tittle{
+  margin-bottom: 10px;
+}
+.categories {
+  padding: 10px;
+  width: 320px;
+  background-color: rgb(142, 143, 138);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.TaBcont {
+  left: 50px;
+  top: 100px;
+  position: relative;
+   display: inline;
+}
+.input{
+  color: black;
+  margin-left: 15px;
+  font-size:15px;
+  font-family:Times New Roman;
+  font-style: inherit;
+  width:200px;
+  height:22px;
+  border-width:0px;
+  border-color:rgba(7, 7, 7, 1);
+  border-style:solid;
+  border-width: 1px;
+  font-weight:bold;
+  font-style:italic;
+  background:linear-gradient(rgba(3, 1, 1, 0.18), rgba(129, 64, 106, 0.2));
+}
+.errors{
+  color: white;
+  font-size: 15px;
+  font-family:Times New Roman;
+  width:320px;
+  height:22px;
+  border-color:rgba(7, 7, 7, 1);
+  border-style:solid;
+  border-width: 1px;
+  font-weight:bold;
+  background:red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.select {
+  margin: 14px;
+  font-size:16px;
+  font-family:Times New Roman;
+  width:166px;
+  height:27px;
+  border-radius:10px;
+  color:rgba(252, 248, 248, 1);
+  border-color:rgba(12, 12, 15, 1);
+  background:rgba(6, 13, 24, 1);
+  cursor: pointer;
+}
+.select:hover {
+  background: rgba(155, 175, 214, 1)
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.buttonCreate {
+  background-color: #0a0a23;
+  border-radius: 15px;
+  border: 1px solid #1f2f47;
+  color: #ffffff;
+  font-family: Courier New;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 9px 32px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  text-shadow: 0px 7px 4px #263666;
+  opacity: 0.7;
+}
+.buttonCreate2 {
+  background-color: #0a0a23;
+  border-radius: 15px;
+  border: 1px solid #1f2f47;
+  color: #ffffff;
+  font-family: Courier New;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 9px 32px;
+  margin-bottom: 10px;
+  text-shadow: 0px 7px 4px #263666;
+  cursor: pointer;
+}
+.myButton {
+    background-color:#0a0a23;
+    border-radius:15px;
+    border:1px solid #1f2f47;
+    display:flex;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Courier New;
+    font-size:20px;
+    font-weight:bold;
+    padding:9px 32px;
+    text-decoration:none;
+    text-shadow:0px 7px 4px #263666;
+}
+.myButton:hover {
+    background-color:#1e1e57;
+    transition: 0.5s;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+.link{
+  text-decoration: none;
+}
+.divtempers{
+  height: 40px;
+  width: 240px;
+  background-color: #b7b3b3dc;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.buttonDelete {
+    background-color:#ba544a;
+    border-radius:11px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Times New Roman;
+    font-size:16px;
+    font-weight:bold;
+    padding:7px 20px;
+    margin-left: 10px;
+}
+.buttonDelete:hover {
+    background-color:#f55044;
+}
+.buttonDelete:active {
+    position:relative;
+    top:1px;
+}
+
+@media (max-width: 767px) {
+  .form {
+      margin-top: 10px;
+  }
+  
+  .input {
+      width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .form {
+      margin-top: 20px;
+  }
+
+  .buttonCreate,
+  .buttonCreate2 {
+      margin-left: 0;
+  }
+
+  .buttonDelete {
+      margin-left: 5px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .form {
+      margin-top: 30px;
+  }
+}
+
+@media (min-width: 1281px) {
+  
+}

@@ -1,0 +1,100 @@
+.select {
+    margin: 14px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    width: 166px;
+    height: 27px;
+    border-radius: 10px;
+    color: #181818;
+    border: 1px solid #888;
+    background: #f4f4f4;
+    cursor: pointer;
+}
+
+.select:hover {
+    background: #ccc;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.cardsContainer {
+    width: 98vw;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pg {
+    padding-top: 12px;
+}
+
+.pg button {
+    padding: 0.6em 0.8em;
+    background-color: #333;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid #888;
+    cursor: pointer;
+}
+
+.pg span {
+    flex: 1;
+    padding: 0.6em;
+    border-radius: 20px;
+    background-color: #333;
+    color: white;
+    border: 1px solid #888;
+}
+
+.pg button:hover {
+    background-color: #666;
+}
+
+.button {
+    padding: 0.6em 0.8em;
+    background-color: #333;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid #888;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #666;
+    box-shadow: 1px 1px 0 #444, 2px 2px 0 #444, 3px 3px 0 #444, 4px 4px 0 #444, 5px 5px 0 #444, 6px 6px 0 #444, 7px 7px 0 #444;
+}
+
+@media (max-width: 767px) {
+    .select {
+        width: 100%;
+    }
+
+    .pg {
+        padding-top: 8px;
+    }
+    
+    .pg button,
+    .pg span,
+    .button {
+        padding: 0.5em 0.6em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .select {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .select {
+        
+    }
+}
+
+@media (min-width: 1281px) {
+  
+}

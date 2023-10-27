@@ -1,0 +1,77 @@
+.cards {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(142, 143, 138, 254);
+    width: 300px;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    align-items: first baseline;
+}
+
+.cards h3 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(252, 248, 248, 1);
+}
+
+.cards img {
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+.category, .description {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(252, 248, 248, 1);
+}
+.category {
+    padding-top: 12px;
+}
+.description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+@media (max-width: 767px) {
+    .cards {
+        width: 100%;
+        margin: 20px;
+        padding: 10px;
+    }
+    
+    .cards h3 {
+        font-size: 18px;
+    }
+
+    .cards img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .cards {
+        width: 40%;
+        margin: 20px;
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .cards {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1281px) {
+    
+}

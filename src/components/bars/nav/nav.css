@@ -1,0 +1,138 @@
+.menu {
+    display: flex;
+    justify-content: space-between; 
+    height: 56px;
+    padding: 0 18px;
+    border-radius: 0px;
+    background-color: #a9a596;
+    -webkit-box-shadow: 0px 10px 10px 0px rgba(33, 33, 33, 0.35);
+    -moz-box-shadow: 0px 10px 10px 0px rgba(33, 33, 33, 0.35);
+    box-shadow: 0px 10px 10px 0px rgba(33, 33, 33, 0.35);
+  }
+  .button{
+    display: flex;
+    margin-top: 7px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #a9a596;
+    font-size: 17px;
+    text-transform: capitalize;
+  }
+  .button:hover {
+    color: #0099CC;
+    background: #F2F2F2;
+}
+.button:active {
+  background: #F2F2F2;
+  color: #444444;
+}
+  .menu ul, .menu li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .menu ul {
+    display: flex;
+  }
+  
+  .menu li {
+    display: inline;
+    position: relative;
+  }
+  
+  .menu a {
+    display: block;
+    line-height: 56px;
+    margin-left: 2px;
+    padding: 0 14px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 17px;
+    text-transform: capitalize;
+  }
+  .menu img {
+    margin-top: 2px;
+    width: 50px;
+    height: 50px;
+  }
+  .menu a.dropdown_arrow:after {
+    content: "\25BE";
+    margin-left: 5px;
+  }
+  
+  .menu li a:hover {
+    color: #0099CC;
+    background: #F2F2F2;
+  }
+  .menu li p {
+    margin-left: 10px;
+  }
+  .menu input {
+    display: none;
+    margin: 0;
+    padding: 0;
+    height: 56px;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .menu label {
+    display: none;
+    line-height: 56px;
+    text-align: center;
+    position: absolute;
+    left: 35px;
+  }
+  
+  .menu label:before {
+    font-size: 1.6em;
+    content: "\2261";
+    margin-left: 20px;
+  }
+  
+  .menu ul.sub_menus {
+    height: auto;
+    overflow: hidden;
+    width: 170px;
+    background: #444444;
+    position: absolute;
+    z-index: 99;
+    display: none;
+  }
+  
+  .menu ul.sub_menus li {
+    display: block;
+    width: 100%;
+  }
+  
+  .menu ul.sub_menus a {
+    color: #FFFFFF;
+    font-size: 16px;
+  }
+  
+  .menu li:hover ul.sub_menus {
+    display: block;
+  }
+  
+  .menu ul.sub_menus a:hover {
+    background: #F2F2F2;
+    color: #444444;
+  }  
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .menu a {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .menu a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1281px) {
+    
+}

@@ -1,0 +1,56 @@
+.sb {
+    padding-top: 12px;
+}
+
+.sb button {
+    padding: 0.6em 0.8em;
+    background-color: #F3F0E2;
+    color: #333;
+    border-radius: 20px;
+    border: 1px solid #D0CCC0;
+    cursor: pointer;
+}
+
+.sb input[type="text"] {
+    flex: 1;
+    padding: 0.6em;
+    border-radius: 20px;
+    border: 1px solid #D0CCC0;
+}
+
+.sb button:hover {
+    background-color: #c4b482;
+    box-shadow: 1px 1px 0 #A3A18B, 
+                2px 2px 0 #A3A18B, 
+                3px 3px 0 #A3A18B, 
+                4px 4px 0 #A3A18B, 
+                5px 5px 0 #A3A18B, 
+                6px 6px 0 #A3A18B, 
+                7px 7px 0 #A3A18B;
+}
+
+@media (max-width: 767px) {
+    .sb {
+        padding-top: 8px;
+    }
+    
+    .sb button {
+        padding: 0.5em 0.6em;
+    }
+
+    .sb input[type="text"] {
+        padding: 0.5em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    
+}
+
+@media (min-width: 1281px) {
+    
+}
